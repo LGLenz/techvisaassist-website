@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.title">TechVisaAssist — Confident help with digital government services & visas</title>
+  <meta name="description" content="Calm, one-to-one help with German digital public services (ELSTER, Bürgeramt) and guided visa & residence-permit applications. EN / DE support, GDPR-compliant, secure video calls." />
+  <link rel="canonical" href="https://techvisaassist.kestura.com/" />
+  <meta property="og:title" content="TechVisaAssist — Confident help with digital government services & visas" />
+  <meta property="og:description" content="Calm, one-to-one help with German digital public services and guided visa & residence-permit applications." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://techvisaassist.kestura.com/" />
+
+  <!-- Fonts: General Sans (display) via Fontshare, Inter (body) via Google -->
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230d6e76'/%3E%3Cpath d='M11 23V11a5 5 0 0 1 10 0v12' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round'/%3E%3Cpath d='M12.5 17.5l2.3 2.3 4.7-5' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="#top" aria-label="TechVisaAssist home">
+          <!-- Logo: a stylized doorway/arch with a checkmark inside — guidance & safe passage through a process -->
+          <svg class="logo" width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true" role="img">
+            <path d="M9 30V14a8 8 0 0 1 16 0v16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M11 30h12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M11.5 19.2l3 3 5.8-6.2" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="brand-name">Tech<b>Visa</b>Assist</span>
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#pricing" data-i18n="nav.pricing">Pricing</a></li>
+          <li><a href="#booking" data-i18n="nav.book">Book</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+          <li><a class="btn btn--primary nav-cta-mobile" href="#booking" data-i18n="nav.cta">Book a consultation</a></li>
+        </ul>
+
+        <div class="nav-end">
+          <div class="lang-switch" role="group" aria-label="Language / Sprache">
+            <button type="button" data-lang="en" aria-pressed="true" title="English">EN</button>
+            <button type="button" data-lang="de" aria-pressed="false" title="Deutsch">DE</button>
+            <button type="button" data-lang="sw" aria-pressed="false" title="Kiswahili">SW</button>
+          </div>
+          <a class="btn btn--primary nav-cta-desktop" href="#booking" data-i18n="nav.cta">Book a consultation</a>
+          <button class="nav-toggle" type="button" id="navToggle" aria-expanded="false" aria-controls="navLinks" data-i18n-attr="aria-label:nav.menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow" data-i18n="hero.eyebrow">Personal, one-to-one guidance</span>
+            <h1 id="hero-title" data-i18n="hero.title">Confident help with digital government services and visa applications.</h1>
+            <p class="lead" data-i18n="hero.subtitle">Government websites and visa portals can feel overwhelming. We sit beside you — calmly and clearly — so every form, upload and appointment is done right the first time.</p>
+            <div class="hero-actions">
+              <a class="btn btn--primary" href="#booking" data-i18n="hero.cta_primary">Book a consultation</a>
+              <a class="btn btn--ghost" href="#services" data-i18n="hero.cta_secondary">See services</a>
+            </div>
+            <p class="hero-trust">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linejoin="round"/></svg>
+              <span data-i18n="hero.trust">Private, secure video calls · EN / DE support · GDPR-compliant</span>
+            </p>
+          </div>
+          <div class="hero-media">
+            <img src="assets/hero.png" width="1456" height="816"
+                 alt="A consultant calmly helping a person review documents at a desk"
+                 data-i18n-attr="alt:hero.image_alt" fetchpriority="high" decoding="async" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-media">
+            <img src="assets/about.png" width="1311" height="983" loading="lazy" decoding="async"
+                 alt="A tidy desk with a laptop, documents, glasses and a cup of tea"
+                 data-i18n-attr="alt:about.image_alt" />
+          </div>
+          <div>
+            <span class="eyebrow" data-i18n="about.eyebrow">About</span>
+            <h2 id="about-title" data-i18n="about.title">A calm, human hand through processes that feel intimidating.</h2>
+            <p class="about-body" data-i18n="about.body">TechVisaAssist is a B2C IT consultancy run by Elias Lenz. We help individuals navigate German e-government services and guided visa and residence-permit applications — ELSTER, Bürgeramt online portals, visa portals and document preparation. No jargon, no pressure: just clear, patient guidance at your pace.</p>
+            <ul class="trust-points" role="list">
+              <li>
+                <svg class="tp-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 8h14M5 12h14M5 16h9" stroke-linecap="round"/><circle cx="19" cy="16" r="3"/></svg>
+                <div>
+                  <h3 data-i18n="about.point1_title">Multilingual support</h3>
+                  <p data-i18n="about.point1_body">Sessions in English and German, with Kiswahili on request.</p>
+                </div>
+              </li>
+              <li>
+                <svg class="tp-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <div>
+                  <h3 data-i18n="about.point2_title">GDPR-compliant</h3>
+                  <p data-i18n="about.point2_body">Your documents and data are handled securely and confidentially, the EU way.</p>
+                </div>
+              </li>
+              <li>
+                <svg class="tp-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z" stroke-linejoin="round"/><circle cx="12" cy="11" r="2.4"/><path d="M9 16c.6-1.6 1.8-2.4 3-2.4s2.4.8 3 2.4" stroke-linecap="round"/></svg>
+                <div>
+                  <h3 data-i18n="about.point3_title">Experienced IT consultant</h3>
+                  <p data-i18n="about.point3_body">Years of hands-on experience with digital public services and online portals.</p>
+                </div>
+              </li>
+              <li>
+                <svg class="tp-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3z" stroke-linejoin="round"/></svg>
+                <div>
+                  <h3 data-i18n="about.point4_title">Secure video calls</h3>
+                  <p data-i18n="about.point4_body">Private, encrypted video sessions — help you can get from home.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="services.eyebrow">Services</span>
+          <h2 id="services-title" data-i18n="services.title">Clear help for each step of the journey.</h2>
+          <p data-i18n="services.subtitle">Choose the support that fits where you are. Not sure? Book a short consultation and we'll point you the right way.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <svg class="s-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h9l5 5v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z" stroke-linejoin="round"/><path d="M14 4v5h5M8 13h8M8 17h5" stroke-linecap="round"/></svg>
+            <h3 data-i18n="services.s1_title">Visa Application Guidance</h3>
+            <p data-i18n="services.s1_body">Step-by-step help with online visa and residence-permit portals — what to enter, what to upload, and what each question really means.</p>
+          </article>
+          <article class="service-card">
+            <svg class="s-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4" stroke-linecap="round"/><path d="M7 9l2.5 2.5L7 14M12 14h5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <h3 data-i18n="services.s2_title">Digital Public Services Help</h3>
+            <p data-i18n="services.s2_body">Hands-on assistance with German e-government: ELSTER, Bürgeramt online portals, appointment booking and digital identity.</p>
+          </article>
+          <article class="service-card service-card--feature">
+            <svg class="s-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3l2.5 5 5.5.8-4 3.9 1 5.5-5-2.7-5 2.7 1-5.5-4-3.9 5.5-.8z" stroke-linejoin="round"/></svg>
+            <div class="s-body">
+              <h3 data-i18n="services.s4_title">Premium End-to-End</h3>
+              <p data-i18n="services.s4_body">Full accompaniment through an entire process — from first form to final confirmation, with us alongside you the whole way.</p>
+            </div>
+          </article>
+          <article class="service-card">
+            <svg class="s-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 11l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 3v3h8V3" stroke-linejoin="round"/></svg>
+            <h3 data-i18n="services.s3_title">Document &amp; Form Review</h3>
+            <p data-i18n="services.s3_body">We review and prepare your application documents and forms so they're complete, correct and ready to submit.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="pricing" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="pricing.eyebrow">Pricing</span>
+          <h2 id="pricing-title" data-i18n="pricing.title">Simple packages. No surprises.</h2>
+          <p data-i18n="pricing.subtitle">Choose the package that fits your situation. Pricing is tailored to your case and confirmed before you book — just send an enquiry.</p>
+        </div>
+        <div class="pricing-grid">
+
+          <!-- PACKAGE 1 -->
+          <article class="price-card">
+            <h3 data-i18n="pricing.p1_title">Document &amp; Form Review</h3>
+            <p class="price-desc" data-i18n="pricing.p1_desc">A focused review of your documents and forms before you submit.</p>
+            <div class="price-amount"><span class="on-request" data-i18n="pricing.on_request">On request</span></div>
+            <ul class="price-features" role="list">
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p1_f1">One application reviewed</span></li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p1_f2">Written checklist of fixes</span></li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p1_f3">Email follow-up</span></li>
+            </ul>
+            <div class="price-cta-area">
+              <a class="btn btn--primary btn--block" href="#contact" data-i18n="pricing.cta">Request this service</a>
+            </div>
+          </article>
+
+          <!-- PACKAGE 2 (featured) -->
+          <article class="price-card price-card--featured">
+            <span class="price-badge" data-i18n="pricing.popular">Most chosen</span>
+            <h3 data-i18n="pricing.p2_title">Digital Services Help</h3>
+            <p class="price-desc" data-i18n="pricing.p2_desc">Guided help through a German e-government portal task.</p>
+            <div class="price-amount"><span class="on-request" data-i18n="pricing.on_request">On request</span></div>
+            <ul class="price-features" role="list">
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p2_f1">45-minute video session</span></li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p2_f2">Live screen guidance</span></li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p2_f3">EN / DE support</span></li>
+            </ul>
+            <div class="price-cta-area">
+              <a class="btn btn--primary btn--block" href="#contact" data-i18n="pricing.cta">Request this service</a>
+            </div>
+          </article>
+
+          <!-- PACKAGE 3 -->
+          <article class="price-card">
+            <h3 data-i18n="pricing.p3_title">Visa Guidance</h3>
+            <p class="price-desc" data-i18n="pricing.p3_desc">Step-by-step help with a visa or residence-permit application.</p>
+            <div class="price-amount"><span class="on-request" data-i18n="pricing.on_request">On request</span></div>
+            <ul class="price-features" role="list">
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p3_f1">60-minute video session</span></li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p3_f2">Portal walk-through</span></li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p3_f3">Document checklist</span></li>
+            </ul>
+            <div class="price-cta-area">
+              <a class="btn btn--primary btn--block" href="#contact" data-i18n="pricing.cta">Request this service</a>
+            </div>
+          </article>
+
+          <!-- PACKAGE 4 -->
+          <article class="price-card">
+            <h3 data-i18n="pricing.p4_title">Premium End-to-End</h3>
+            <p class="price-desc" data-i18n="pricing.p4_desc">Full accompaniment through a complete process.</p>
+            <div class="price-amount"><span class="on-request" data-i18n="pricing.on_request">On request</span></div>
+            <ul class="price-features" role="list">
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p4_f1">Multiple sessions</span></li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p4_f2">Priority scheduling</span></li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12l5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="pricing.p4_f3">Direct support line</span></li>
+            </ul>
+            <div class="price-cta-area">
+              <a class="btn btn--primary btn--block" href="#contact" data-i18n="pricing.cta">Request this service</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING ============ -->
+    <section class="booking" id="booking" aria-labelledby="booking-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="booking.eyebrow">Booking</span>
+          <h2 id="booking-title" data-i18n="booking.title">How booking works.</h2>
+          <p data-i18n="booking.subtitle">Three simple steps — send an enquiry, we confirm your appointment and a secure payment link, then you receive your video-call link.</p>
+        </div>
+        <div class="booking-grid">
+          <div>
+            <div class="booking-media">
+              <img src="assets/booking.png" width="1311" height="983" loading="lazy" decoding="async"
+                   alt="A person having a friendly, secure video consultation from home" />
+            </div>
+            <ol class="steps">
+              <li>
+                <span class="step-num">1</span>
+                <div>
+                  <h3 data-i18n="booking.step1_title">Send an enquiry</h3>
+                  <p data-i18n="booking.step1_body">Tell us which service you need and a little about your situation.</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-num">2</span>
+                <div>
+                  <h3 data-i18n="booking.step2_title">We confirm &amp; send a payment link</h3>
+                  <p data-i18n="booking.step2_body">We confirm your appointment and send a secure PayPal payment link by email.</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-num">3</span>
+                <div>
+                  <h3 data-i18n="booking.step3_title">Receive your video-call link</h3>
+                  <p data-i18n="booking.step3_body">Once payment is received, you get your private, secure video-call link for the session.</p>
+                </div>
+              </li>
+            </ol>
+            <div class="booking-cta">
+              <a class="btn btn--primary" href="#contact" data-i18n="booking.cta">Send an enquiry</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="policy">
+              <h3>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span data-i18n="booking.policy_title">Confirmation &amp; cancellation policy</span>
+              </h3>
+              <p data-i18n="booking.policy_body">You'll receive a confirmation by email once your time is booked. Cancellations made at least 24 hours in advance are free of charge. For cancellations less than 24 hours before the appointment, or for no-shows, the full fee applies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container container--narrow">
+        <div class="contact-card">
+          <span class="eyebrow" data-i18n="contact.eyebrow">Contact</span>
+          <h2 id="contact-title" data-i18n="contact.title">Questions? We're glad to help.</h2>
+          <p class="contact-body" data-i18n="contact.body">Not sure which package fits, or have a question before booking? Send us a note and we'll reply personally — usually within one working day.</p>
+          <a class="contact-email" href="mailto:info@eliaslenz-mbaberatung.de?subject=Enquiry%20%E2%80%94%20TechVisaAssist">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7l8 6 8-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            info@eliaslenz-mbaberatung.de
+          </a>
+          <p class="contact-note" data-i18n="contact.note">Please don't send sensitive personal documents by email — we'll share a secure upload link once your session is booked.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER (hub-and-spoke via Kestura) ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#top" aria-label="TechVisaAssist home">
+            <svg class="logo" width="30" height="30" viewBox="0 0 34 34" fill="none" aria-hidden="true" style="color:#6fc6cd"><path d="M9 30V14a8 8 0 0 1 16 0v16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M11 30h12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M11.5 19.2l3 3 5.8-6.2" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="brand-name">Tech<b>Visa</b>Assist</span>
+          </a>
+          <p class="footer-tagline" data-i18n="footer.tagline">Calm, clear guidance through digital government services and visa applications.</p>
+        </div>
+        <div class="footer-meta">
+          <p class="footer-operated">
+            <span data-i18n="footer.operated">Operated by Elias Lenz · part of the</span>
+            <a href="https://kestura.com" target="_blank" rel="noopener" data-i18n="footer.group_link">Kestura group</a>
+          </p>
+          <ul class="footer-links" role="list">
+            <li><a href="impressum.html" data-i18n="footer.impressum">Impressum</a></li>
+            <li><a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-rights">© <span id="year"></span> TechVisaAssist · <span data-i18n="footer.rights">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <!-- ============ COOKIE CONSENT BANNER ============ -->
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+    <p>
+      <span data-i18n="cookie.text">We use only essential cookies to remember your language and cookie choice. No tracking, advertising, or third-party cookies are set when the page loads.</span>
+      <a href="datenschutz.html" data-i18n="cookie.learn">Learn more</a>
+    </p>
+    <div class="cookie-actions">
+      <button type="button" class="btn btn--primary btn--small" id="cookieAccept" data-i18n="cookie.accept">Accept</button>
+      <button type="button" class="btn btn--ghost btn--small" id="cookieDecline" data-i18n="cookie.decline">Decline non-essential</button>
+    </div>
+  </div>
+
+  <script src="i18n.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
