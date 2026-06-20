@@ -17,7 +17,7 @@ function __set(k,v){var s=__ws();try{if(s){s.setItem(k,v);}else{__mem[k]=v;}}cat
 const TRANSLATIONS = {
   /* ---------------------------------------------------------- EN */
   en: {
-    "meta.title": "TechVisaAssist — Confident help with digital government services & visas",
+    "meta.title": "TechVisaAssist by Kestura — Professional immigration & digital-government support",
     "nav.about": "About",
     "nav.services": "Services",
     "nav.pricing": "Pricing",
@@ -121,7 +121,7 @@ const TRANSLATIONS = {
 
   /* ---------------------------------------------------------- DE */
   de: {
-    "meta.title": "TechVisaAssist — Sichere Hilfe bei digitalen Behördengängen & Visumanträgen",
+    "meta.title": "TechVisaAssist von Kestura — Professionelle Hilfe bei Visum & digitalen Behördengängen",
     "nav.about": "Über uns",
     "nav.services": "Leistungen",
     "nav.pricing": "Preise",
@@ -228,7 +228,7 @@ const TRANSLATIONS = {
      Currently translated: nav + hero + section headings (+ CTA labels).
      Keys not present here automatically fall back to English (see t()). */
   sw: {
-    "meta.title": "TechVisaAssist — Msaada wa uhakika kwa huduma za serikali za kidijitali na visa",
+    "meta.title": "TechVisaAssist na Kestura — Msaada wa kitaalamu wa visa na huduma za serikali za kidijitali",
     "nav.about": "Kuhusu",
     "nav.services": "Huduma",
     "nav.pricing": "Bei",
