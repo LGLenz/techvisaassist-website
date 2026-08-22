@@ -104,6 +104,8 @@ const TRANSLATIONS = {
     "contact.title": "Questions? We're glad to help.",
     "contact.body": "Not sure which package fits, or have a question before booking? Send us a note and we'll reply personally — usually within one working day.",
     "contact.email_label": "Email",
+    "contact.phone_advisory": "(Advisory — Elias Lenz)",
+    "contact.phone_management": "(Kestura UG — Managing Director Andreas Lenz)",
     "contact.note": "Please don't send sensitive personal documents by email — we'll share a secure upload link once your session is booked.",
 
     "footer.operated": "Operated by Elias Lenz · part of the",
@@ -208,6 +210,8 @@ const TRANSLATIONS = {
     "contact.title": "Fragen? Wir helfen gerne.",
     "contact.body": "Nicht sicher, welches Paket passt, oder haben Sie eine Frage vor der Buchung? Schreiben Sie uns — wir antworten persönlich, in der Regel innerhalb eines Werktags.",
     "contact.email_label": "E-Mail",
+    "contact.phone_advisory": "(Beratung — Elias Lenz)",
+    "contact.phone_management": "(Kestura UG — Geschäftsführung Andreas Lenz)",
     "contact.note": "Bitte senden Sie keine sensiblen persönlichen Dokumente per E-Mail — wir teilen einen sicheren Upload-Link, sobald Ihre Sitzung gebucht ist.",
 
     "footer.operated": "Betrieben von Elias Lenz · Teil der",
@@ -269,6 +273,8 @@ const TRANSLATIONS = {
 
     "contact.eyebrow": "Wasiliana",
     "contact.title": "Maswali? Tunafurahi kusaidia.",
+    "contact.phone_advisory": "(Ushauri — Elias Lenz)",
+    "contact.phone_management": "(Kestura UG — Mkurugenzi Mkuu Andreas Lenz)",
 
     "footer.operated": "Inaendeshwa na Elias Lenz · sehemu ya",
     "footer.group_link": "kundi la Kestura"
