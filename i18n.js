@@ -37,7 +37,7 @@ const TRANSLATIONS = {
 
     "about.eyebrow": "About",
     "about.title": "A calm, human hand through processes that feel intimidating.",
-    "about.body": "TechVisaAssist is a B2C IT consultancy run by Elias Lenz. We help individuals navigate German e-government services and guided visa and residence-permit applications — ELSTER, Bürgeramt online portals, visa portals and document preparation. No jargon, no pressure: just clear, patient guidance at your pace.",
+    "about.body": "TechVisaAssist is a B2C IT consultancy and one of the flagship brands of Kestura UG (haftungsbeschränkt). We help individuals navigate German e-government services and guided visa and residence-permit applications — ELSTER, Bürgeramt online portals, visa portals and document preparation. No jargon, no pressure: just clear, patient guidance at your pace.",
     "about.image_alt": "A tidy desk with a laptop, documents, glasses and a cup of tea",
     "about.point1_title": "Multilingual support",
     "about.point1_body": "Sessions in English and German, with Kiswahili on request.",
@@ -108,7 +108,7 @@ const TRANSLATIONS = {
     "contact.phone_management": "(Kestura UG — Managing Director Andreas Lenz)",
     "contact.note": "Please don't send sensitive personal documents by email — we'll share a secure upload link once your session is booked.",
 
-    "footer.operated": "Operated by Elias Lenz · part of the",
+    "footer.operated": "Operated by Kestura UG (haftungsbeschränkt) · part of the",
     "footer.group_link": "Kestura group",
     "footer.impressum": "Impressum",
     "footer.datenschutz": "Datenschutz",
@@ -143,7 +143,7 @@ const TRANSLATIONS = {
 
     "about.eyebrow": "Über uns",
     "about.title": "Eine ruhige, menschliche Begleitung durch Prozesse, die einschüchternd wirken.",
-    "about.body": "TechVisaAssist ist eine B2C-IT-Beratung von Elias Lenz. Wir helfen Privatpersonen durch digitale deutsche E-Government-Dienste und begleitete Visa- und Aufenthaltstitelanträge — ELSTER, Bürgeramt-Online-Portale, Visa-Portale und Dokumentenvorbereitung. Kein Fachjargon, kein Druck: nur klare, geduldige Begleitung in Ihrem Tempo.",
+    "about.body": "TechVisaAssist ist eine B2C-IT-Beratung und eine der Kernmarken der Kestura UG (haftungsbeschränkt). Wir helfen Privatpersonen durch digitale deutsche E-Government-Dienste und begleitete Visa- und Aufenthaltstitelanträge — ELSTER, Bürgeramt-Online-Portale, Visa-Portale und Dokumentenvorbereitung. Kein Fachjargon, kein Druck: nur klare, geduldige Begleitung in Ihrem Tempo.",
     "about.image_alt": "Ein aufgeräumter Schreibtisch mit Laptop, Dokumenten, Brille und einer Tasse Tee",
     "about.point1_title": "Mehrsprachige Unterstützung",
     "about.point1_body": "Sitzungen auf Englisch und Deutsch, Kiswahili auf Anfrage.",
@@ -214,7 +214,7 @@ const TRANSLATIONS = {
     "contact.phone_management": "(Kestura UG — Geschäftsführung Andreas Lenz)",
     "contact.note": "Bitte senden Sie keine sensiblen persönlichen Dokumente per E-Mail — wir teilen einen sicheren Upload-Link, sobald Ihre Sitzung gebucht ist.",
 
-    "footer.operated": "Betrieben von Elias Lenz · Teil der",
+    "footer.operated": "Betrieben von Kestura UG (haftungsbeschränkt) · Teil der",
     "footer.group_link": "Kestura-Gruppe",
     "footer.impressum": "Impressum",
     "footer.datenschutz": "Datenschutz",
@@ -276,7 +276,7 @@ const TRANSLATIONS = {
     "contact.phone_advisory": "(Ushauri — Elias Lenz)",
     "contact.phone_management": "(Kestura UG — Mkurugenzi Mkuu Andreas Lenz)",
 
-    "footer.operated": "Inaendeshwa na Elias Lenz · sehemu ya",
+    "footer.operated": "Inaendeshwa na Kestura UG (haftungsbeschränkt) · sehemu ya",
     "footer.group_link": "kundi la Kestura"
   }
 };
