@@ -6,11 +6,9 @@
   <title>Datenschutzerklärung — TechVisaAssist</title>
   <meta name="description" content="Datenschutzerklärung nach DSGVO für TechVisaAssist." />
   <meta name="robots" content="noindex" />
-  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
-  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <!-- Fonts: Inter, self-hosted in /fonts (no third-party requests) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -52,7 +50,7 @@
         Verantwortlich für die Datenverarbeitung auf dieser Website ist:<br />
         <strong>DigiAssist — Elias Lenz</strong> (Einzelunternehmer)<br />
         Finkenstraße 32, 70794 Filderstadt, Deutschland<br />
-        E-Mail: <a href="mailto:info@eliaslenz-mbaberatung.de">info@eliaslenz-mbaberatung.de</a>
+        E-Mail: <a href="mailto:contact@kestura.com">contact@kestura.com</a>
       </p>
 
       <h2>2. Allgemeines zur Datenverarbeitung</h2>
@@ -162,6 +160,6 @@
     </div>
   </footer>
 
-  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="year.js" defer></script>
 </body>
 </html>
